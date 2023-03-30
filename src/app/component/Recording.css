@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.recording {
+
+    /* background-image: url(https://wallpaperaccess.com/full/2309522.jpg); */
+    /* background-size: cover; */
+    /* opacity: 0.8; */
+    background-color: wheat;
+    height: 100vh;
+    /* width: 200px; */
+    /* height: 20px; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.mic {
+    box-shadow: 0px 0px 12px #ccc;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    /* height: 300px; */
+    /* width: 400px; */
+    border: 3px solid gray;
+    border-radius: 30px;
+    background-color: rebeccapurple;
+    /* opacity: 0.6; */
+    position: relative;
+    padding: 80px;
+}
+
+.mic:hover{
+    box-shadow: 5px 1px 16px 3px black;
+    transition-duration: 0.4s;
+}
+
+.stop{
+    width: 60px;
+    height: 40px;
+    border-radius: 10%;
+}
+.stop:hover{
+    background-color: red;
+    border-radius: 10%;
+
+}
+.record {
+    /* position: absolute; */
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.recordSection{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    width: 150px;
+    height: 150px;
+}
+.recordCircle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+
+    
+}
+.recordCircle:hover{
+    box-shadow: 3px 3px 25px 20px rgb(197, 124, 124);
+    /* position: absolute; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    /* background-color: rgb(255, 5, 5); */
+    transition-duration: 0.2s;
+    background-color: red;
+}
+
+.recordingMic:hover {
+    color: rgb(196, 14, 14);
+    width: 105px;
+    height: 105px;
+}
+
+/* CSS for sound Clip */
+.sound-clip{
+    width: 462px;
+    margin: 16px;
+    background-color: currentColor;
+}
+

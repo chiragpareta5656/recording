@@ -1,0 +1,17 @@
+@media only screen and (max-width: 500px){
+    .mic {
+        box-shadow: 0px 0px 12px #ccc;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        /* height: 300px; */
+        /* width: 400px; */
+        border: 3px solid gray;
+        border-radius: 30px;
+        background-color: rebeccapurple;
+        /* opacity: 0.6; */
+        position: relative;
+        padding: 70px;
+      }
+}
